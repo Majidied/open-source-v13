@@ -31,6 +31,9 @@ const Navbar = () => {
               <a href="#team" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                 Team
               </a>
+              <a href="#sponsors" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                Sponsors
+              </a>
               <a href="#ar-section" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                 Augmented Reality
               </a>
@@ -59,6 +62,9 @@ const Navbar = () => {
             </a>
             <a href="#team" className="block hover:bg-gray-700 px-3 py-2 rounded-md text-base font-medium">
               Team
+            </a>
+            <a href="#sponsors" className="block hover:bg-gray-700 px-3 py-2 rounded-md text-base font-medium">
+              Sponsors
             </a>
             <a href="#ar-section" className="block hover:bg-gray-700 px-3 py-2 rounded-md text-base font-medium">
               Augmented Reality

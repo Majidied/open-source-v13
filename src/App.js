@@ -5,6 +5,7 @@ import Team from "./components/Team/Team";
 import ARSection from "./components/ARSection/ARSection";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import Sponsors from "./components/Sponsors/Sponsors";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Planning />
       <Historique />
       <Team />
+      <Sponsors />
       <ARSection />
       <Footer />
     </div>

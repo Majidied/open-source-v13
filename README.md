@@ -86,6 +86,7 @@ Make sure you have the following installed:
 │   │   ├── Planning/Planning.js
 │   │   ├── Historique/Historique.js
 │   │   ├── Team/Team.js
+│   │   ├── Sponsors/Sponsors.js
 │   │   ├── ARSection/ARSection.js
 │   │   ├── Footer/Footer.js
 │   ├── App.js
