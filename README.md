@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Open Source v13
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open Source v13 is a landing page project created with React and Tailwind CSS to promote the latest version of an open-source event. It features multiple sections, including an interactive hero section, event planning details, historical overview of previous versions, team showcase, and augmented reality experience. The project also integrates Framer Motion for smooth animations to enhance user experience.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Project Features](#project-features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Project](#running-the-project)
+- [Project Structure](#project-structure)
+- [Usage](#usage)
+- [License](#license)
 
-### `npm start`
+## Project Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Hero Section**: Includes the event's title and a call-to-action button with smooth animations.
+- **Planning Section**: A breakdown of the event days using a responsive grid layout.
+- **Historique Section**: Overview of previous versions of Open Source, detailing their key features.
+- **Team Section**: Display of team members with a clean, minimal card layout.
+- **Augmented Reality Section**: Introduces the immersive AR experience as part of the event.
+- **Responsive Design**: Optimized for various screen sizes using Tailwind CSS.
+- **Smooth Animations**: Leveraging Framer Motion for subtle yet engaging animations.
+- **Modular Components**: Each section is encapsulated in its own component, making it easy to maintain and scale.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+- **React**: Front-end library for building the user interface.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Framer Motion**: Library for animations in React.
+- **React Icons**: For adding icons to components (e.g., navbar toggle).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Follow these instructions to set up and run the project locally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure you have the following installed:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Node.js**: v14.x or later
+- **npm**: v6.x or later (comes with Node.js)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/your-username/open-source-v13.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate into the project directory:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   cd open-source-v13
+   ```
 
-## Learn More
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Running the Project
 
-### Code Splitting
+1. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+2. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
 
-### Making a Progressive Web App
+```bash
+.
+├── public
+│   └── index.html
+├── src
+│   ├── components
+│   │   ├── Navbar/Navbar.js
+│   │   ├── Hero/Hero.js
+│   │   ├── Planning/Planning.js
+│   │   ├── Historique/Historique.js
+│   │   ├── Team/Team.js
+│   │   ├── ARSection/ARSection.js
+│   │   ├── Footer/Footer.js
+│   ├── App.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **components/**: Contains all the modular components for each section of the landing page.
+- **App.js**: The main component that renders all sections.
+- **index.css**: Tailwind CSS styles and custom CSS.
 
-### Advanced Configuration
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Navbar**: A responsive navigation bar with links to sections like "Home," "Planning," "Historique," "Team," and "Augmented Reality."
+- **Hero Section**: The opening section that grabs attention with the event title and a call-to-action button.
+- **Planning Section**: Displays the schedule of the event.
+- **Historique Section**: Details the past versions of Open Source.
+- **Team Section**: Introduces the team behind the event.
+- **Augmented Reality Section**: Presents the AR experience to users.
+- **Footer**: Basic footer with event copyright.
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
